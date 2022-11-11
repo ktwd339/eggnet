@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에그넷 메인페이지</title>
+	<script src="classes.js"></script>
+	<script src="utils.js"></script>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" />
+</head>
+<body>
+<!-- Header -->
+<header class="header_section">
+					<nav class="left">
+                  <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="액션_login_categorypage.html">액션</a>
+  <a href="공포_login_categorypage.html">공포</a>
+  <a href="디펜스,전략_login_categorypage.html">디펜스/전략</a>
+  <a href="스포츠_login_categorypage.html">스포츠</a>
+  <a href="FPS_login_categorypage.html">FPS</a>
+  <a href="RPG_login_categorypage.html">RPG</a>
+  <a href="#">게시판</a>
+<br><br><br><br>
+  <a href="../예원언니페이지/로그인, 회원가입 페이지/material-kit-master/pages/sign-in.html">로그인</a>
+  <a href="../예원언니페이지/로그인, 회원가입 페이지/material-kit-master/pages/sign-up.html">회원가입</a>
+</div>
+					<button class="openbtn" onclick="openNav()">☰</button>
+					<a href="index.html" class="logo"><img src="images/로고.png" width="188" height="71"></a>
+					</nav>
+				<div class="searchArea">
+					<form><input class="search" type="search" placeholder="   Search"></form>
+				</div>
+				<nav class="right">
+						<a href = "#" class="basket"><img src="images/장바구니.png" width="30" height="30"></a>
+						<a href="../예원언니페이지/로그인, 회원가입 페이지/material-kit-master/pages/sign-in.html" class="login">로그인</a>
+						<a href="../예원언니페이지/로그인, 회원가입 페이지/material-kit-master/pages/sign-up.html" class="join">회원가입</a>
+				</nav>
+			</header>
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+<!------- 배너 ------->
+<center>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="images/첫번째배너.png" style="width:1200px" height="600px">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/배너5.jpg" style="width:1200px" height="600px">
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</center>
+<!-- 추천 게임 -->
+
+<div class="title1"><h1>추천 게임</h1></div>
+<div class="SALE" >
+        	<div class="item-cont">
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="../진아페이지/게임 상세페이지/index.html"><img src="images/RPG썸네일/red hood delivery.png" width="203" height="203" ></a></dt>
+        				<ul><li class="gamename">Fallout Freeze</li></ul>
+        		</dl>
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="fight_samurai.html"><img src="images/액션썸네일/파이트.png" width="203" height="203"></a></dt>
+        				<ul><li class="gamename">파이팅 사무라이</li></ul>
+        		</dl>
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/스포츠썸네일/버닝러버4.png" width="203" height="203" ></a></dt>
+        				<ul><li class="gamename">버닝 러버4</li></ul>
+        		</dl>
+                <dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/디펜스,전략썸네일/Longhaus.png" width="203" height="203"></a></dt>
+        				<ul><li  class="gamename">Longhaus</li></ul>
+        		</dl>
+        	</div>
+        </div>
+
+</div>
+<!-- 찜 목록 -->
+<div class="title2" style="text-align:center"><h1>찜 목록</h1></div>
+
+<div class="SALE">
+        	<div class="item-cont2">
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/RPG썸네일/red hood delivery.png" width="203" height="203" ></a></dt>
+        				<ul><li class="gamename">Fallout Freeze</li></ul>
+        		</dl>
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/액션썸네일/파이트.png" width="203" height="203"></a></dt>
+        				<ul><li class="gamename">파이팅 사무라이</li></ul>
+        		</dl>
+        		<dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/게임사진자리.jpg" width="203" height="203"></a></dt>
+        				<ul><li  class="gamename">게임 이름</li></ul>
+        		</dl>
+                <dl class="item-list">
+        			<dt class="thumb">
+        				<a href="#"><img src="images/게임사진자리.jpg" width="203" height="203"></a></dt>
+        				<ul><li  class="gamename">게임 이름</li></ul>
+        		</dl>
+        	</div>
+        </div>
+
+
+</body>
+</html>

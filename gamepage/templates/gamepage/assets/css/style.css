@@ -1,0 +1,397 @@
+/* 상단 아이콘들 */
+
+
+.logo {
+position: absolute;
+width: 188px;
+height: 71px;
+left: 455px;
+top: 55px;}
+
+.right a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 23px;
+letter-spacing: -0.03em;
+text-decoration: none;
+color: #181818;
+}
+
+.login {
+position: absolute;
+width: 54px;
+height: 23px;
+left: 1190px;
+top: 74px;
+}
+
+.join {
+position: absolute;
+width: 72px;
+height: 23px;
+left: 1250px;
+top: 74px;
+}
+
+.basket {
+position: relative;
+width: 40px;
+height: 36px;
+left: 1135px;
+top: 60px;
+background: url(22.png);
+}
+
+.basket2 {
+position: relative;
+width: 40px;
+height: 36px;
+left: 1165px;
+top: 50px;
+background: url(22.png);
+}
+
+/* 로그인완료 인덱스 프로필 css*/
+.profile {
+position: relative;
+width: 44px;
+height: 44px;
+left: 1180px;
+top: 60px;
+}
+
+.searchArea {
+position: absolute;
+width: 240px;
+height: 42px;
+left: 880px;
+top: 65px;
+background: #EAEAEA;
+border-radius: 10px;}
+
+.search {
+background: #EAEAEA;
+width: 240px;
+height: 42px;
+border: 0px;
+border-radius: 10px
+}
+/* 로그인완료 인덱스 검색바 css*/
+.searchArea2 {
+position: absolute;
+width: 240px;
+height: 42px;
+left: 920px;
+top: 65px;
+background: #EAEAEA;
+border-radius: 10px;}
+
+
+
+/* 배너 Slideshow container */
+.slideshow-container {
+
+  position: relative;
+  top: 130px;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+ left: 345px;
+}
+
+/* Position the "next button" to the right */
+.next {
+
+  right: 344px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+position: relative;
+top: 90px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* 배너 끝 On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* 추천 게임, 게임 목록*/
+
+.title1 {
+position: absolute;
+width: 150px;
+height: 28px;
+left: 520px;
+top: 820px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 28px;
+letter-spacing: -0.03em;
+
+color: #181818;
+}
+
+.item-cont {
+            position: relative;
+            left: 100px;
+            top:200px;
+           	width: 1150px;
+           	padding-left: 70px;
+           	zoom: 1;
+   			overflow: hidden;
+    		    margin-top: -20px;
+    		    margin: 0 auto;
+           }
+           dl.item-list {
+ 			    /* float: left; */
+    		    width: 200px;
+    		    margin: 10px 10px;
+    		    /*text-align: left;*/
+           }
+
+           .item-list ul {
+           list-style: none;
+           	margin: 0.2em;
+           	padding: 0;
+           	text-align: left;
+
+           	font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #505050;
+           }
+
+/* 찜 목록, 게임 목록*/
+
+.title2 {
+position: absolute;
+width: 90px;
+height: 28px;
+left: 520px;
+top: 1130px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 28px;
+letter-spacing: -0.03em;
+
+color: #181818;
+}
+
+.item-cont2 {
+            position: relative;
+            left: 100px;
+            top: 260px;
+           	width: 1150px;
+           	padding-left: 70px;
+           	zoom: 1;
+   			overflow: hidden;
+    		    margin-top: -20px;
+    		    margin: 0 auto;
+           }
+           dl.item-list2 {
+ 			    /* float: left; */
+    		    width: 200px;
+    		    margin: 10px 10px;
+    		    /*text-align: left;*/
+           }
+           .item-list2 ul {
+           list-style: none;
+           	margin: 0.2em;
+           	padding: 0;
+           	text-align: left;
+
+           	font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #505050;
+           }
+/* 카테고리페이지.html 게임, 게임 목록*/
+.title3 {
+position: absolute;
+width: 150px;
+height: 28px;
+left: 890px;
+top: 180px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.03em;
+color: #181818;}
+
+.line {
+position: absolute;
+left: 400px;
+top: 130px;
+}
+.line2 {
+position: absolute;
+left: 400px;
+top: 220px;
+}
+
+.item-cont3 {
+            position: absolute;
+            top:250px;
+            left:400px;
+           	width: 900px;
+           	padding-left: 70px;
+           	zoom: 1;
+   			overflow: hidden;
+    		    margin-top: -20px;
+    		    margin: 0 auto;
+           }
+           dl.item-list {
+ 			    float: left;
+    		    width: 200px;
+    		    margin: 10px 10px;
+    		    /*text-align: left;*/
+           }
+           .item-list ul {
+           list-style: none;
+           	margin: 0.2em;
+           	padding: 0;
+           	text-align: left;
+
+           	font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: #505050;
+           }
+
+.item-list img {
+border-radius: 10px;
+}
+
+/* 숨겨진 카테고리 목록 css*/
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 20%);
+    /*transition: all .5s cubic-bezier(.23,1,.32,1);
+    */
+}
+
+.sidepanel a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel h1 {
+font-family: 'Roboto';
+font-weight: 600;
+  padding: 0px 0px 0px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+/* 숨겨진 카테고리 보기 버튼 아이콘 css*/
+.openbtn {
+position: absolute;
+left: 410px;
+top: 64px;
+font-size: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+    border-radius: 4px;
+}
+
+.openbtn:hover {
+  background-color:#EAEAEA;
+}

@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+  align-items: start;
+  position: relative;
+}
+.v418_66 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v418_67 {
+    width: 634px;
+    height: 420px;
+    background: url("../images/v418_67.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 168px;
+    left: 272px;
+    overflow: hidden;
+}
+.gameview {
+    width: 634px;
+    height: 420px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.v418_69 {
+  width: 634px;
+  height: 420px;
+  background: rgba(211,211,210,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v418_70 {
+  width: 220px;
+  height: 49px;
+  background: rgba(224,219,240,1);
+  opacity: 1;
+  position: absolute;
+  top: 477px;
+  left: 928px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v418_71 {
+  width: 876px;
+  height: 260px;
+  background: rgba(224,219,240,1);
+  opacity: 1;
+  position: absolute;
+  top: 667px;
+  left: 272px;
+  border: 1px solid rgba(199,199,199,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.info_name {
+    width: 92px;
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 630px;
+    left: 292px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+.updownbtn {
+  width: 110px;
+  color: rgba(24,24,24,1);
+  position: absolute;
+  top: 550px;
+  left: 985px;
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.demo {
+    width: 92px;
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 364px;
+    left: 533px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+.gname {
+    width: 200px;
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 135px;
+    left: 252px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+.dl {
+  width: 104px;
+  color: rgba(53,53,53,1);
+  position: absolute;
+  top: 491px;
+  left: 986px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v418_79 {
+  width: 219px;
+  height: 288px;
+  background: rgba(205,205,205,1);
+  opacity: 1;
+  position: absolute;
+  top: 170px;
+  left: 929px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.menu {
+    width: 40px;
+    height: 40px;
+    background: url("../images/menu.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 43px;
+    left: 272px;
+    overflow: hidden;
+}
+.logo {
+  width: 186px;
+  height: 70px;
+  background: url("../images/v517_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  left: 333px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.dname {
+  width: 122px;
+  color: rgba(24,24,24,1);
+  position: absolute;
+  top: 418px;
+  left: 980px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v570_217 {
+  width: 42px;
+  height: 24px;
+  background: url("../images/v570_217.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 272px;
+  overflow: hidden;
+}
+.v570_221 {
+  width: 276px;
+  height: 42px;
+  background: rgba(233,233,233,1);
+  opacity: 1;
+  position: absolute;
+  top: 55px;
+  left: 735px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v570_222 {
+  width: 23px;
+  height: 23px;
+  background: url("../images/v570_222.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 981px;
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+.cart {
+    width: 32px;
+    height: 29px;
+    background: url("../images/v570_225.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 60px;
+    left: 1024px;
+    overflow: hidden;
+}
+.profile {
+    width: 35px;
+    height: 35px;
+    background: url("../images/profile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 60px;
+    left: 1075px;
+    overflow: hidden;
+}
+.upbtn {
+  width: 40px;
+  height: 40px;
+  background: url("../images/v569_84.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 545px;
+  left: 932px;
+  overflow: hidden;
+}
+.downbtn {
+    width: 40px;
+    height: 40px;
+    background: url("../images/v571_192.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 1095px;
+    transform: rotate(-179deg);
+    overflow: hidden;
+}
+.v570_296 {
+  width: 203px;
+  height: 216px;
+  background: rgba(233,233,233,1);
+  opacity: 1;
+  position: absolute;
+  top: 176px;
+  left: 937px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.info {
+    width: 825px;
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 687px;
+    left: 293px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+.sum {
+    width: 65px;
+    color: rgba(24,24,24,1);
+    position: absolute;
+    top: 283px;
+    left: 1006px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}

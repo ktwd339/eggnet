@@ -1,0 +1,155 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+          rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Press Start 2P', cursive;
+
+        }
+        #canvas {
+            position: absolute;
+            top: 168px;
+            left: 272px;
+            margin: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="v418_66">
+        <div class="v418_67">
+            <div class="v418_68">
+            </div>
+            <div class="gameview">
+            </div>
+        </div>
+        <div class="v418_70">
+
+        </div>
+        <div class="v418_71">
+
+        </div>
+        <span class="info_name">게임 설명</span>
+        <span class="updownbtn">좋아요 싫어요 1.1천 456</span>
+        <span class="demo" font-size="10"></span>
+        <span class="gname">파이팅 사무라이</span>
+        <span class="dl">게임 다운로드</span>
+        <div class="v418_79"></div>
+        <div class="menu"></div>
+        <div class="logo"></div>
+        <div class="profile"></div>
+        <div class="name"></div>
+        <span class="dname">게임 제작자 닉네임</span>
+        <div class="v570_217">
+            <div class="name"></div>
+            <div class="name"></div>
+            <div class="name"></div>
+        </div>
+        <div class="v570_221"></div>
+        <div class="v570_222"></div>
+        <div class="name"></div>
+        <div class="cart"></div>
+        <div class="upbtn"></div>
+        <div class="downbtn"></div>
+        <div class="v570_296"></div>
+        <span class="info">이동 : 방향키,WD 공격 : 스페이스, S </span>
+        <span class="sum">섬네일</span>
+    </div>
+    <!-- red container div -->
+    <div style="position: relative; display: inline-block">
+        <!-- smaller red container div -->
+        <div style="
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+      ">
+            <!-- player health -->
+            <div style="
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          border-top: 4px solid white;
+          border-left: 4px solid white;
+          border-bottom: 4px solid white;
+        ">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="playerHealth"
+                     style="
+            position: absolute;
+            background: #818cf8;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+          "></div>
+            </div>
+
+            <!-- timer -->
+            <div id="timer"
+                 style="
+          background-color: black;
+          width: 100px;
+          height: 50px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          border: 4px solid white;
+        ">
+                10
+            </div>
+            <!-- enemy health -->
+            <div style="
+          position: relative;
+          width: 100%;
+          border-top: 4px solid white;
+          border-bottom: 4px solid white;
+          border-right: 4px solid white;
+        ">
+                <div style="background-color: red; height: 30px"></div>
+                <div id="enemyHealth"
+                     style="
+            position: absolute;
+            background: #818cf8;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          "></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText"
+             style="
+        position: absolute;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        left: 0;
+        display: none;
+      ">
+            Tie
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+            integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="fight_samurai.js"></script>
+</body>
